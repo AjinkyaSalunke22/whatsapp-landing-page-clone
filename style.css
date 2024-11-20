@@ -10,7 +10,7 @@
 
 .container{
     width: 100vw;
-    min-height: 100vh;
+    height: 100vh;
     background-color: #faf5eb;
 }
 
@@ -21,6 +21,7 @@
     padding: 20px;
     background-color: #faf5eb88;
     position: sticky;
+    top: 0px;
 }
 
 .nav-logo img{
@@ -104,3 +105,36 @@
     transform: scaleX(1);
 }
 
+
+.first-sec-container{
+    height: 80%;
+    width: 90%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-image: url("./assets/images/MaaBeti.png");
+    border-radius: 15px;
+}
+
+.first-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    color: white;
+    gap: 20px;
+}
+.img-sec{
+    width: 40%;
+}
+
+.first-section h3{
+    font-size: 60px;
+    gap: 20px;
+}
+
+.left-sec{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+}
